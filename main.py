@@ -10,3 +10,9 @@ def my_solution():
 
 
 my_func()
+
+
+def greet(name=None):
+    if name is None:
+        name = "World"
+    print(f"Hello {name}!")

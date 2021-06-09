@@ -16,3 +16,7 @@ def greet(name=None):
     if name is None:
         name = "World"
     print(f"Hello {name}!")
+
+
+def run_greet():
+    greet()

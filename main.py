@@ -7,3 +7,6 @@ def my_func():
 
 def my_solution():
     print("solution")
+
+
+my_func()
